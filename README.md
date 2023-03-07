@@ -1,4 +1,4 @@
-Occlusion Culling Fix
+Sodium Occlusion Culling Fix
 =====
 
 [Download me on Modrinth](https://modrinth.com/mod/occlusion-culling-fix-sodium)
