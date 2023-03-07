@@ -1,7 +1,7 @@
 Occlusion Culling Fix
 =====
 
-[Download me on Modrinth](https://modrinth.com/mod/sodium-occlusion-culling-fix)
+[Download me on Modrinth](https://modrinth.com/mod/occlusion-culling-fix-sodium)
 
 **This is a FABRIC mod. The 1.18.2 version also works for 1.19.**
 
