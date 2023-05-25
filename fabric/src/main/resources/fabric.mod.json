@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "ocrenderfix_sodium",
+  "version": "${version}",
+  "name": "Sodium Occlusion Culling Fix",
+  "description": "Fix MC-70850, a missing chunks issue brought back by Sodium in 1.18+.",
+  "authors": [
+    "yezhiyi9670"
+  ],
+  "contact": {
+    "sources": "https://github.com/yezhiyi9670/occlusion-culling-fix-sodium"
+  },
+  "license": "The Unlicense",
+  "icon": "assets/ocrenderfix_sodium/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "yezhiyi9670.ocrenderfix_sodium.fabric.ExampleModFabric"
+    ]
+  },
+  "mixins": [
+    "ocrenderfix_sodium.mixins.json",
+    "ocrenderfix_sodium-common.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=1.18.1"
+  }
+}

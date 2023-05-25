@@ -1,16 +1,20 @@
-Sodium Occlusion Culling Fix
+Sodium/Rubidium Occlusion Culling Fix
 =====
 
 [Download me on Modrinth](https://modrinth.com/mod/occlusion-culling-fix-sodium)
 
-**This is a FABRIC mod. The 1.18.2 version also works for 1.19.**
-
 This is a mod which "fixes" MC-70850 for MC1.18+ by disabling Occlusion Culling.
 
-It should have been already fixed since it is resolved by Mojang in 1.17. However, [Sodium](https://modrinth.com/mod/sodium) brought it back so we need to fix it again.
+It should have been already fixed since it is resolved by Mojang in 1.17. However, [Sodium](https://modrinth.com/mod/sodium)/[Rubidium]() brought it back so we need to fix it again.
 
 Relations
 -----
+
+### Forge
+
+**Suggests** [Rubidium](https://modrinth.com/mod/rubidium): The issue does not exist without Rubidium. In that case, you won't need the mod.
+
+### Fabric
 
 **Suggests** [Sodium](https://modrinth.com/mod/sodium): The issue does not exist without Sodium. In that case, you won't need the mod.
 
@@ -45,5 +49,5 @@ New features will not be added to the mod in order to keep the name descriptive.
 
 This mod will not be backported.
 
-- If you play 1.15 or 1.16 and is having the issue, fix it with [this mod](https://www.curseforge.com/minecraft/mc-mods/occlusion-culling-temp-fix).
+- If you play 1.15/1.16 Forge and is having the issue, fix it with [this mod](https://www.curseforge.com/minecraft/mc-mods/occlusion-culling-temp-fix).
 - If you are the lucky one who is playing MC1.12.2, use [EigenCraft Unofficial Patches](https://github.com/mrgrim/MUP) instead.

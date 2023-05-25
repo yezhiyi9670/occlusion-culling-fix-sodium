@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[39,)"
+#issueTrackerURL = ""
+license = "The Unlicense"
+
+[[mods]]
+modId = "ocrenderfix_sodium"
+version = "${version}"
+displayName = "Sodium Occlusion Culling Fix"
+authors = "yezhiyi9670"
+description = '''
+Fix MC-70850, a missing chunks issue brought back by Rubidium in 1.18+.
+'''
+#logoFile = ""
+
+[[dependencies.ocrenderfix_sodium]]
+modId = "forge"
+mandatory = true
+versionRange = "[39,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.ocrenderfix_sodium]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.18.1,)"
+ordering = "NONE"
+side = "BOTH"
