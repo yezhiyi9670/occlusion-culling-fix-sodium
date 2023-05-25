@@ -3,6 +3,8 @@ Sodium/Rubidium Occlusion Culling Fix
 
 [Download me on Modrinth](https://modrinth.com/mod/occlusion-culling-fix-sodium)
 
+> [Sponsor](https://afdian.net/a/yezhiyi9670) if you like this project.
+
 This is a mod which "fixes" MC-70850 for MC1.18+ by disabling Occlusion Culling.
 
 It should have been already fixed since it is resolved by Mojang in 1.17. However, [Sodium](https://modrinth.com/mod/sodium)/[Rubidium]() brought it back so we need to fix it again.
