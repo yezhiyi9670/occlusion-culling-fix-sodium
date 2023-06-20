@@ -26,3 +26,10 @@ mandatory = true
 versionRange = "[1.18.1,)"
 ordering = "NONE"
 side = "BOTH"
+
+[[dependencies.ocrenderfix_sodium]]
+modId = "rubidium"
+mandatory = true
+versionRange = "[0.4,)"
+ordering = "NONE"
+side = "BOTH"

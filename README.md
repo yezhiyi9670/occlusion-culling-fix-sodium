@@ -5,7 +5,7 @@ Sodium/Rubidium Occlusion Culling Fix
 
 > [Sponsor](https://afdian.net/a/yezhiyi9670) if you like this project.
 
-This is a mod which "fixes" MC-70850 for MC1.18+ by disabling Occlusion Culling.
+This is a mod which "fixes" MC-70850 for MC1.18+ by ~~disabling Occlusion Culling~~ properly fixing it.
 
 It should have been already fixed since it is resolved by Mojang in 1.17. However, [Sodium](https://modrinth.com/mod/sodium)/[Rubidium]() brought it back so we need to fix it again.
 
@@ -14,11 +14,11 @@ Relations
 
 ### Forge
 
-**Suggests** [Rubidium](https://modrinth.com/mod/rubidium): The issue does not exist without Rubidium. In that case, you won't need the mod.
+**Requires** [Rubidium](https://modrinth.com/mod/rubidium): The issue does not exist without Rubidium. In that case, you won't need the mod.
 
 ### Fabric
 
-**Suggests** [Sodium](https://modrinth.com/mod/sodium): The issue does not exist without Sodium. In that case, you won't need the mod.
+**Requires** [Sodium](https://modrinth.com/mod/sodium): The issue does not exist without Sodium. In that case, you won't need the mod.
 
 Effect
 -----
@@ -41,8 +41,6 @@ Incompatibilities
 -----
 
 Not found so far.
-
-*Details:* This mod sets `MinecraftClient.getInstance().chunkCullingEnabled` which Sodium reads to false on startup.
 
 Plans
 -----

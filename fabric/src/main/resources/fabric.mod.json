@@ -23,6 +23,7 @@
     "ocrenderfix_sodium-common.mixins.json"
   ],
   "depends": {
-    "minecraft": ">=1.18.1"
+    "minecraft": ">=1.18.1",
+    "sodium": ">=0.4.0"
   }
 }

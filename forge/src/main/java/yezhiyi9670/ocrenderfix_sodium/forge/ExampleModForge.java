@@ -12,7 +12,7 @@ public class ExampleModForge {
         // Submit our event bus to let architectury register our content on the right time
         ExampleMod.init();
         if(FMLEnvironment.dist == Dist.CLIENT) {
-            MinecraftClient.getInstance().chunkCullingEnabled = false;
+            // MinecraftClient.getInstance().chunkCullingEnabled = false;
         }
     }
 }

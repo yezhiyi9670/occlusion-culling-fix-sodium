@@ -11,7 +11,7 @@ public class ExampleModFabric implements ModInitializer {
     public void onInitialize() {
         ExampleMod.init();
         if(FabricLoader.getInstance().getEnvironmentType() == EnvType.CLIENT) {
-             MinecraftClient.getInstance().chunkCullingEnabled = false;
+             // MinecraftClient.getInstance().chunkCullingEnabled = false;
         }
     }
 }
