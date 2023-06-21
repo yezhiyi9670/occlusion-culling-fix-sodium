@@ -30,7 +30,7 @@ The chunk with letters "VISIBLE" in it was hidden in vanilla because of [MC-7085
 Side Effects
 -----
 
-This is a temp fix which fixes the bug by breaking features. The side effect of the mod is reducing FPS, but no significant performance drops have been measured so far.
+Though being an almost-proper fix, this fix does not completely match the intention of the original code. This might result in minor performance loss. However, we did not find significant performance drops.
 
 Related Information
 -----
