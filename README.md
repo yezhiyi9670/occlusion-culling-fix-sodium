@@ -37,6 +37,8 @@ Related Information
 
 This fixes MC-70850 only. Another issue, [MC-63020](https://bugs.mojang.com/browse/MC-63020) causes a similar issue, and was fixed in 1.16.
 
+If you wonder how the issue could occur and how we fixed it, read this [analysis](./_analysis/analysis.md).
+
 Incompatibilities
 -----
 
