@@ -9,6 +9,8 @@ This is a mod which "fixes" MC-70850 for MC1.18+ by ~~disabling Occlusion Cullin
 
 It should have been already fixed since it is resolved by Mojang in 1.17. However, [Sodium](https://modrinth.com/mod/sodium)/[Rubidium]() brought it back so we need to fix it again.
 
+⚠️ Keep in mind that the fix is somehow breaking and will impact FPS. If you encounter performance issues, try removing this fix mod before blaming Sodium.
+
 Relations
 -----
 
