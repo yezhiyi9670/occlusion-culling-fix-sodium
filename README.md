@@ -1,6 +1,8 @@
 Sodium/Rubidium Occlusion Culling Fix
 =====
 
+🎉 **The issue has been fixed officially in Sodium 0.5.0. You will no longer need this mod.**
+
 [Download me on Modrinth](https://modrinth.com/mod/occlusion-culling-fix-sodium)
 
 > [Sponsor](https://afdian.net/a/yezhiyi9670) if you like this project.
